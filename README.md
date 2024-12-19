@@ -1,0 +1,3 @@
+# Uncommon MATLAB Error: Unexpected Behavior in someCalculation Function
+
+This repository demonstrates an uncommon error in MATLAB where a function throws an unexpected error. The `myFunction` function calls `someCalculation` function.  If the input to `myFunction` is negative, a descriptive error is thrown. However, `someCalculation` can lead to a runtime error if the input is zero, due to division by zero.  The solution addresses this issue.
